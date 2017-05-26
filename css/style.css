@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+html { -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */}
+body { margin: 0px; padding: 0px; color: #666; }
+		
+h1,h2,h3,h4,h5,h6,
+ul,ol,li,
+form,input,textarea,select { margin: 0; padding: 0; }
+header, nav, article, footer, address, section { display: block; }
+p {	margin: 10px 0; }
+img { border: 0; }
+a { text-decoration: none; outline: none; color: #09f; }
+a:link, a:hover { text-decoration: underline; color: #09f; }
+a:focus { outline: none; }
+
+
+/* ==========================================================================
+   General
+   ========================================================================== */
+
+.left {	text-align: left !important; }
+.right { text-align: right !important; }
+.center { text-align: center !important; }
+.justify { text-align: justify !important; }
+
+.nofloat { float: none !important; }
+.float-left { float: left !important; }
+.float-right { float: right !important; }
+.clear { clear: both; }
+
+.block { display: block !important; }
+.inline-block { display: inline-block !important; }
+.inline { display: inline !important; }
+
+.absolute { position: absolute !important; }
+.relative { position: relative !important; }
+.fixed { position: fixed !important; }
+
+.mt10 { margin-top: 10px; }
+.mb10 { margin-bottom: 10px; }
+
+
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+   
+#wrapper { width: 100%; background: #fff; }
+
+/* Small devices (480px and up) */
+@media (min-width: 480px) {
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+
+/* Extra Large devices (large desktops, 1920px and up) */
+@media (min-width: 1920px) { 
+
+	
+}
